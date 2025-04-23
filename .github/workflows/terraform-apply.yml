@@ -41,4 +41,4 @@ jobs:
         run: terraform apply -auto-approve -no-color -input=false
         env:
           VES_P12_PASSWORD: ${{ secrets.VES_P12_PASSWORD }}
-          TF_LOG: debug 
+          # TF_LOG: debug 
