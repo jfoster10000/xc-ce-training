@@ -6,7 +6,7 @@ namespace    = "j-foster"
 
 # Project Details
 prefix = "j-foster-azure-smsv2-ce-training"
-owner  = "jason foster>"
+owner  = "jason foster"
 
 # F5 Distributed Cloud CE SMSv2 Details
 f5xc_sms_node_count = 1
