@@ -181,11 +181,11 @@ resource "azurerm_network_interface_security_group_association" "inside_security
   network_security_group_id = module.inside-network-security-group-public.network_security_group_id
 }
 
-resource "volterra_known_label_key" "key" {
-  key         = "virtual-site-terraform"
-  namespace   = "shared"
-  description = "Used to define lables for Virtual Sites "
-}
+#resource "volterra_known_label_key" "key" {
+#  key         = "virtual-site-terraform"
+#  namespace   = "shared"
+#  description = "Used to define lables for Virtual Sites "
+#}
 
 resource "volterra_known_label" "label" {
   key       = volterra_known_label_key.key.key
